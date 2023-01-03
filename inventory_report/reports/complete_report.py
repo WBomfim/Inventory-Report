@@ -18,7 +18,7 @@ class CompleteReport(SimpleReport):
             f"Data de fabricação mais antiga: {old_date}\n"
             f"Data de validade mais próxima: {nearest_date}\n"
             f"Empresa com mais produtos: {company_more_products}\n"
-            f"Produtos estocados por empresa:\n {formated_stock_by_company}"
+            f"Produtos estocados por empresa:\n{formated_stock_by_company}"
         )
 
     @classmethod
